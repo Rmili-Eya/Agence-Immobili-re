@@ -1,8 +1,11 @@
+
+/*css de navbar */
+
 .nav-item{
     padding: 15px;  
 }
-.nav-item>a{
-    color: black;
+.navbar-collapse .navbar-nav li a{
+    color: white;
     margin: 0px;
 }
 #navbarNav{
@@ -12,6 +15,63 @@
     margin: 0px;
     position: fixed;
 }
+/**/
+.navbar-expand-lg {
+	background-color: transparent;
+	border: medium none;
+	border-radius: 0;
+	margin-bottom: 0;
+	padding: 15px 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+.navbar-expand-lg .navbar-nav li a {
+	color: white	;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav > .active > a, .navbar-collapse .navbar-nav > .active > a:focus, .navbar-collapse .navbar-nav > .active > a:hover, .navbar-collapse .navbar-nav li a:hover, .navbar-collapse .navbar-nav li a:focus {
+	color: #A0522D	;
+	background: transparent
+}
+.navbar-expand-lg a.navbar-brand {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+	padding-top: 16px;
+	text-transform: uppercase
+}
+.navbar-expand-lg a.navbar-brand span {
+	color: #A0522D	;
+}
+.navbar-expand-lg a.navbar-brand:hover {
+	color: #A0522D	;
+}
+
+.navbar-expand-lg a.navbar-brand:hover span {
+    color: #fff;
+}
+
+.affix {
+	animation: 1s ease 0s normal both 1 running slideInDown;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 7px;
+	position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.color-bg-nav {
+	background: #1f2d3c;
+	margin-top: 0;
+	padding: 5px 0
+}
+
+
+
+
 /*Bootstrap Navbar overtop Carrousel*/
 .carousel {position: relative;}
 
