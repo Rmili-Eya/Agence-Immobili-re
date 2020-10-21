@@ -61,7 +61,7 @@
 	padding: 7px;
 	position: fixed;
     z-index: 1000;
-    width: 100%;
+    width:100%;
 }
 .color-bg-nav {
 	background: #1f2d3c;
@@ -85,6 +85,14 @@
 }
 .formulaire{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: black;
+}
+#inputs{
+    display: flex;
+    justify-content: space-between;
+    
 }
 .col-md-4{
     display: inline-block;
