@@ -6,6 +6,8 @@
 .navbar-collapse .navbar-nav li a{
     color: white;
     margin: 0px;
+    font-family: 'Architects Daughter', cursive;
+
 }
 #navbarNav{
     position: relative;
@@ -27,13 +29,13 @@
 	z-index: 2;
 }
 .navbar-expand-lg .navbar-nav li a {
-	color: black;
+	color: white;
 	font-size: 14px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
 .navbar-expand-lg .navbar-nav > .active > a, .navbar-collapse .navbar-nav > .active > a:focus, .navbar-collapse .navbar-nav > .active > a:hover, .navbar-collapse .navbar-nav li a:hover, .navbar-collapse .navbar-nav li a:focus {
-	color: #A0522D	;
+	color: gray	;
 	background: transparent
 }
 .navbar-expand-lg a.navbar-brand {
@@ -44,10 +46,10 @@
 	text-transform: uppercase
 }
 .navbar-expand-lg a.navbar-brand span {
-	color: #A0522D	;
+	color: #gray	;
 }
 .navbar-expand-lg a.navbar-brand:hover {
-	color: #A0522D	;
+	color: gray	;
 }
 
 .navbar-expand-lg a.navbar-brand:hover span {
@@ -71,6 +73,7 @@
 
 
 
+
 /*Bootstrap Navbar overtop Carrousel*/
 .carousel {position: relative;}
 
@@ -86,13 +89,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    box-shadow: black;
+    box-shadow: 1px black;
 }
 #inputs{
     display: flex;
     justify-content: space-between;
-    
+    font-family: 'Architects Daughter', cursive;
 }
+
 .col-md-4{
     display: inline-block;
     margin-left:-10px;
@@ -120,17 +124,32 @@
   }
   
 
-
+#back1{
+    box-shadow: 1px 2px 3px;
+    height: 200px;
+  
+}
+#back1 h1{
+    color: white;
+  
+}
+#title1{
+font-weight: bold;
+font-size: 50px;
+text-align: center;
+}
 .formulaire{
-    border: ridge black;
-    width: 700px;
+    box-shadow: 1px 2px 3px;
+
+    width: 630px;
+    height: 200px
     
 }
 /*SErvices*/
-section {
+#sec1{
     padding-top: 4rem;
     padding-bottom: 5rem;
-    background-color: #f1f4fa;
+     
 }
 .wrap {
     display: flex;
@@ -140,9 +159,9 @@ section {
     box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
     margin-bottom: 2rem;
 }
-
+/*degradation des couleurs lorsque je hover */
 .wrap:hover {
-    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+    background: linear-gradient(135deg,white 0%,gray 100%);
     color: white;
 }
 
@@ -156,19 +175,22 @@ section {
     margin: 1rem;
     padding-right: 1rem;
 }
-.vcenter {
-    margin: auto;
+.mb-4{
+background-color: #bdc3c7;}
+#contact-form{
+margin-left: 200px;
 }
 
 .mbr-section-title3 {
     text-align: left;
+    color: gray;
 }
 h2 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
 .display-5 {
-    font-family: 'Source Sans Pro',sans-serif;
+    font-family: 'Architects Daughter', cursive;
     font-size: 1.4rem;
 }
 .mbr-bold {
@@ -181,5 +203,68 @@ h2 {
     line-height: 25px;
 }
 .display-6 {
-    font-family: 'Source Sans Pro',sans-serif;
+    font-family: 'Architects Daughter', cursive;
     font-size: 1re}
+    /*formulaire contact*/
+    #bt1{
+        float:right;
+        background-color: gray;
+        border: solid;
+        width: 100px;
+    }
+    /*font-family de tous les h2*/
+    .h2{
+        font-family: 'Architects Daughter', cursive;
+    }
+    .float-left{
+        font-family: 'Architects Daughter', cursive;
+
+    }
+    .float-right{
+        font-family: 'Architects Daughter', cursive;
+
+    }
+    .dropdown-toggle{
+        font-family: 'Architects Daughter', cursive;
+
+    }
+    #dropback{
+        background-color: black;
+    }
+    input{
+        font-family: 'Architects Daughter', cursive;
+
+    }
+    
+    textarea{
+        font-family: 'Architects Daughter', cursive;
+
+    }
+    #bt1{
+        font-family: 'Architects Daughter', cursive;
+
+    }
+    p{
+        font-family: 'Architects Daughter', cursive;
+
+    }
+    /*icones*/
+    #i1{
+        width: 30px;
+    }
+    .list-unstyled{
+        display: flex;
+        justify-content: space-between;
+    }
+  #modal{
+      margin-top: -200px;
+      position: relative;
+      margin-left: 300px;
+     
+
+  }
+  #modal2{
+    margin-top: -200px;
+    position: relative;
+    margin-left: 250px;
+  }
